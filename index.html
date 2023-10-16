@@ -11,13 +11,41 @@
 <!-- Nav Bar on top left -->
     <nav>
         <ul>
-            <li>DIY</li>
-            <li>Heart</li>
-            <li>Cat</li>
+            <li class="topNav">DIY</li>
+            <li class="topNav">Heart</li>
+            <li class="topNav">Cat</li>
         </ul>
     </nav>
 <!-- Nav Bar on the top left -->
 
+
+
+<!-- Color Palette on the bottom left -->
+    <div>
+        <ul id="palette-container">
+            <li class="palette" id="color1" data-color="#ff6961"></li>
+            <li class="palette" id="color2" data-color="#ffb480"></li>
+            <li class="palette" id="color3" data-color="#f8f38d"></li>
+            <li class="palette" id="color4" data-color="#42d6a4"></li>
+            <li class="palette" id="color5" data-color="#08cad1"></li>
+            <li class="palette" id="color6" data-color="#59adf6"></li>
+            <li class="palette" id="color7" data-color="#9d94ff"></li>
+            <li class="palette" id="color8" data-color="#c780e8"></li>
+        </ul>
+    </div>
+<!-- Color Palette on the bottom left -->
+
+<!-- Pixel Grid -->
+<div id="main-container">
+    <script>
+        for (let i = 1; i <= 400; i++) {
+        //   document.write('<div class="grid-item">'+i+'</div>');
+        // }
+        document.write('<div class="grid-item"></div>');
+        }
+      </script>
+</div>
+<!-- Pixel Grid -->
     
 </body>
 </html>
