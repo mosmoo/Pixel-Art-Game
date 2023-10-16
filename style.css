@@ -2,4 +2,16 @@ body{
     background-image: url('/web-background.png');
     background-size:cover;
     background-repeat: no-repeat;
+    text-align: center;
+}
+ul{
+   display: flex;
+}
+li{
+    display: inline;
+    border: 2px solid black;
+    padding: 5px 50px;
+    margin: 5px;
+    border-radius: 20px;
+    background-color: #94AE89;
 }
