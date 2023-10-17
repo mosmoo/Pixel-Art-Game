@@ -2,6 +2,10 @@
 //User clicks a box to change the color
 //Take the class name from what is clicked
 //Add the class name to the respective grid.
+// function addCustomId(){
+//     let
+// }
+
 let mainColor = "#ff6961"
 
 const colors = document.querySelectorAll('.palette')

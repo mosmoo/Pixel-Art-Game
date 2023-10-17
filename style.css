@@ -3,6 +3,7 @@ body{
     background-size:cover;
     background-repeat: no-repeat;
     text-align: center;
+ 
 }
 ul{
    display: flex;
@@ -88,6 +89,7 @@ ul{
     background-color: #FEFBEC;
     border-radius: 20px;
     overflow: hidden;
+    cursor: none;
 }
 .grid-item{
     border:0.2px solid rgba(0, 0, 0, 0.127);
