@@ -3,7 +3,6 @@ body{
     background-size:cover;
     background-repeat: no-repeat;
     text-align: center;
- 
 }
 ul{
    display: flex;
@@ -90,6 +89,7 @@ ul{
     border-radius: 20px;
     overflow: hidden;
     cursor: none;
+    font-size: 8px;
 }
 .grid-item{
     border:0.2px solid rgba(0, 0, 0, 0.127);
@@ -101,4 +101,54 @@ ul{
 }
 .gray{
     background-color: gray;
+}
+/* top-left-right */
+#grid26{
+    border-top:1px solid rgba(0, 0, 0, 1);
+    border-left:1px solid rgba(0, 0, 0, 1);
+    border-right:1px solid rgba(0, 0, 0, 1);
+}
+#grid32{
+    border-top:1px solid rgba(0, 0, 0, 1);
+    border-left:1px solid rgba(0, 0, 0, 1);
+    border-right:1px solid rgba(0, 0, 0, 1);
+}
+/* top and left */
+#grid45{
+    border-top:1px solid rgba(0, 0, 0, 1);
+    border-left:1px solid rgba(0, 0, 0, 1);
+}
+#grid51{
+    border-top:1px solid rgba(0, 0, 0, 1);
+    border-left:1px solid rgba(0, 0, 0, 1);
+}
+/* top and right */
+#grid47{
+    border-top:1px solid rgba(0, 0, 0, 1);
+    border-right:1px solid rgba(0, 0, 0, 1);
+}
+#grid53{
+    border-top:1px solid rgba(0, 0, 0, 1);
+    border-right:1px solid rgba(0, 0, 0, 1);
+}
+/* bottom */
+#grid48{
+    border-bottom:1px solid rgba(0, 0, 0, 1);
+}
+#grid49{
+    border-bottom:1px solid rgba(0, 0, 0, 1);
+}
+#grid50, #grid125, #grid126,#grid133, #grid132, #grid127, #grid131, #grid67, #grid68, #grid88, #grid92, #grid72,#grid71, #grid109, #grid110{
+    border-bottom:1px solid rgba(0, 0, 0, 1);
+}
+/* left */
+#grid65{
+    border-left:1px solid rgba(0, 0, 0, 1);
+}
+#grid85, #grid105, #grid125, #grid88, #grid92, #grid110{
+    border-left:1px solid rgba(0, 0, 0, 1);
+}
+/* right */
+#grid73, #grid93, #grid113, #grid133, #grid88, #grid92{
+    border-right:1px solid rgba(0, 0, 0, 1);
 }
