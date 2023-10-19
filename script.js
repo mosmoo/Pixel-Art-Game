@@ -3,7 +3,6 @@
 //Take the class name from what is clicked
 //Add the class name to the respective grid.
 
-
 let mainColor = "#ff6961"
 
 const colors = document.querySelectorAll('.palette')
