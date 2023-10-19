@@ -108,8 +108,8 @@ function changeTemplate (e){
     
 }
 
-const DIYbtn =document.getElementById('diy')
-catBtn.addEventListener('click', clear)
+// const DIYbtn =document.getElementById('diy')
+// catBtn.addEventListener('click', clear)
 
 // function clear (){
 
