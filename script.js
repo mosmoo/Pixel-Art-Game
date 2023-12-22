@@ -9,7 +9,7 @@ const colors = document.querySelectorAll('.palette')
 const grids = document.getElementsByClassName('grid-item')
 
 for (let i = 0; i < grids.length; i++){
-    grids[i].addEventListener("click", onClick);
+    grids[i].addEventListener("click", onClick)
 }
 
 colors.forEach(color =>{
@@ -21,6 +21,7 @@ colors.forEach(color =>{
 
 function onClick(e) {
     e.target.style.backgroundColor = mainColor
+    console.log("clicked!")
 }
 
 const catBtn = document.getElementById('cat')
